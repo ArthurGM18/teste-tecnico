@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/styles.css" >
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+    <title>Teste Técnico</title>
+
+</head>
+<body>
+
+    <div style="display: none;" id="hidden-content">
+        <div class="card-body">
+            <h3 class="card-title mb-4">Entrada inválida! Somente números maiores que 2 e menores que 20 serão aceitos.</h3>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="content">
+            <ul>
+                <li>
+                    <div class="primeiro-passo">
+                        <p> Digite a quantidade de campos envolvidos nessa operação:</p>
+                        <input type="number" id="campos-qtd">
+                        <button id="qtd-input"> OK </button>
+                    </div>
+                </li>
+                <li>
+                    <div class="segundo-passo" id="seg-p" style="visibility: hidden;">
+                        <p id="somaa"> Digite os valores para cada campo:</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="resultado" id="resultado" style="visibility: hidden;">
+                        <p> 
+                            Resultado: 
+                            <output type="number" id="result"></output>
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+
+<footer>
+    <div class="wrapper">
+        <div class="footer-box">
+            <h2> Meus Portifólios:</h2>
+            <ul class="footer-list">
+                <li>
+                    <a href="https://linkedin.com/in/arthurgm18"> 
+                        <i class="fab fa-linkedin"></i>
+                        Linkedin
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/ArthurGM18"> 
+                        <i class="fab fa-github"></i>
+                        Github
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="wrapper">
+            <p>Arthur Santos | 2021</p>
+        </div>
+    </div>
+</footer>
+
+<script src="js/scripts.js"></script>
+
+</html>
